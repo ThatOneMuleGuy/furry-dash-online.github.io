@@ -14,9 +14,9 @@ window.currentSpider = localStorage.getItem("iconCurrentSpider") || "spider_01";
 window.currentBird   = localStorage.getItem("iconCurrentBird")   || "bird_01";
 window.currentlevel = [
 	"stereo_madness", // internal level name
-	"Stereo Madness", // proper level name
+	"Digital Echoes", // proper level name
 	"level_1",        // level id in assets/levels
-	["RobTop", "Forever Bound"]   // person who made the song
+	["that1muleguy", "Douglas Holmquist"]   // person who made the song
 ];
 window.orbClickScale = 2.0;
 window.orbClickShrinkTime = 250;
