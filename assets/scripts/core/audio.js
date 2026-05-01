@@ -223,11 +223,11 @@ class AudioManager {
         targets: this._music,
         volume: 0,
         duration: durationMillis,
-        onComplete: () => {
+        /*onComplete: () => {
           if (this._music) {
             this._music.stop();
           }
-        }
+        }*/
       });
     }
   }
