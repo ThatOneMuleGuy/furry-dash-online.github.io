@@ -216,21 +216,21 @@ class AudioManager {
       duration: durationMillis
     });
   }
-  /*fadeOutMusic(durationMillis = 1500) {
+  fadeOutMusic(durationMillis = 1500) {
     if (this._music && this._music.isPlaying) {
       this._music.setLoop(false);
       this._scene.tweens.add({
         targets: this._music,
         volume: 1,
         duration: durationMillis,
-        /nComplete: () => {
+        /*nComplete: () => {
           if (this._music) {
             this._music.stop();
           }
-        }
+        }*/
       });
     }
-  }*/
+  }
   playEffect(soundEffect, volumeObj = {}) {
     if (this._scene.sound.context && this._scene.cache.audio.exists(soundEffect)) {
       const soundObject = this._scene.sound.add(soundEffect);
