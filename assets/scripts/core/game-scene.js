@@ -706,7 +706,7 @@ class GameScene extends Phaser.Scene {
     const _iconFrameSets = {
       icon: [
        "player_04_001.png", "player_03_001.png", "player_05_001.png", "player_06_001.png", "player_07_001.png", "player_22_001.png", "player_30_001.png", "player_35_001.png", "player_84_001.png", "player_132_001.png",
-"player_08_001.png", "player_09_001.png", "player_10_001.png", "player_11_001.png", "player_12_001.png", "player_13_001.png", "player_14_001.png", "player_15_001.png", "player_16_001.png", "player_17_001.png",
+"player_08_001.png", "player_09_001.png", "player_10_001.png", "player_11_001.png", "player_12_001.png", "player_13_001.png"/*, "player_14_001.png", "player_15_001.png", "player_16_001.png", "player_17_001.png",
 "player_18_001.png", "player_19_001.png", "player_20_001.png", "player_21_001.png", "player_23_001.png", "player_24_001.png", "player_25_001.png", "player_26_001.png", "player_27_001.png", "player_28_001.png",
 "player_29_001.png", "player_31_001.png", "player_32_001.png", "player_33_001.png", "player_34_001.png", "player_36_001.png", "player_37_001.png", "player_38_001.png", "player_39_001.png", "player_40_001.png",
 "player_41_001.png", "player_42_001.png", "player_43_001.png", "player_44_001.png", "player_45_001.png", "player_46_001.png", "player_47_001.png", "player_48_001.png", "player_49_001.png", "player_50_001.png",
@@ -729,17 +729,17 @@ class GameScene extends Phaser.Scene {
 "player_213_001.png", "player_214_001.png", "player_215_001.png", "player_216_001.png", "player_217_001.png", "player_218_001.png", "player_219_001.png", "player_220_001.png", "player_221_001.png", "player_222_001.png",
 "player_223_001.png", "player_224_001.png", "player_225_001.png", "player_226_001.png", "player_227_001.png", "player_228_001.png", "player_229_001.png", "player_230_001.png", "player_231_001.png", "player_232_001.png",
 "player_233_001.png", "player_234_001.png", "player_235_001.png", "player_236_001.png", "player_237_001.png", "player_238_001.png", "player_239_001.png", "player_240_001.png", "player_241_001.png", "player_242_001.png",
-"player_243_001.png", "player_244_001.png", "player_245_001.png", "player_246_001.png", "player_247_001.png", "player_248_001.png"
+"player_243_001.png", "player_244_001.png", "player_245_001.png", "player_246_001.png", "player_247_001.png", "player_248_001.png"*/
       ],
       ship: [
         "ship_01_001.png", "ship_02_001.png", "ship_03_001.png", "ship_04_001.png", "ship_17_001.png", "ship_22_001.png", "ship_33_001.png", "ship_11_001.png", "ship_12_001.png", "ship_10_001.png",
-"ship_05_001.png", "ship_06_001.png", "ship_07_001.png", "ship_08_001.png", "ship_09_001.png", "ship_13_001.png", "ship_14_001.png", "ship_15_001.png", "ship_16_001.png", "ship_18_001.png",
+"ship_05_001.png"/*, "ship_06_001.png", "ship_07_001.png", "ship_08_001.png", "ship_09_001.png", "ship_13_001.png", "ship_14_001.png", "ship_15_001.png", "ship_16_001.png", "ship_18_001.png",
 "ship_19_001.png", "ship_20_001.png", "ship_21_001.png", "ship_23_001.png", "ship_24_001.png", "ship_25_001.png", "ship_26_001.png", "ship_27_001.png", "ship_28_001.png", "ship_29_001.png",
 "ship_30_001.png", "ship_31_001.png", "ship_32_001.png", "ship_34_001.png", "ship_35_001.png", "ship_36_001.png", "ship_37_001.png", "ship_38_001.png", "ship_39_001.png", "ship_40_001.png",
 "ship_41_001.png", "ship_42_001.png", "ship_43_001.png", "ship_44_001.png", "ship_45_001.png", "ship_46_001.png", "ship_47_001.png", "ship_48_001.png", "ship_49_001.png", "ship_50_001.png",
 "ship_51_001.png", "ship_52_001.png", "ship_53_001.png", "ship_54_001.png", "ship_55_001.png", "ship_56_001.png", "ship_57_001.png", "ship_58_001.png", "ship_59_001.png", "ship_60_001.png",
 "ship_61_001.png", "ship_62_001.png", "ship_63_001.png", "ship_64_001.png", "ship_65_001.png", "ship_66_001.png", "ship_67_001.png", "ship_68_001.png", "ship_69_001.png", "ship_70_001.png",
-"ship_71_001.png", "ship_72_001.png", "ship_73_001.png", "ship_74_001.png", "ship_75_001.png", "ship_76_001.png", "ship_77_001.png", "ship_78_001.png", "ship_79_001.png"
+"ship_71_001.png", "ship_72_001.png", "ship_73_001.png", "ship_74_001.png", "ship_75_001.png", "ship_76_001.png", "ship_77_001.png", "ship_78_001.png", "ship_79_001.png"*/
       ],
       ball: [
         "player_ball_01_001.png", "player_ball_02_001.png", "player_ball_03_001.png", "player_ball_04_001.png", "player_ball_05_001.png", "player_ball_06_001.png", "player_ball_07_001.png", "player_ball_08_001.png", "player_ball_09_001.png", "player_ball_10_001.png",
@@ -1844,10 +1844,10 @@ class GameScene extends Phaser.Scene {
       const levelId = lvl[2] || "level_1";
       const levelDifficultyMap = {
         "level_1":         "diffIcon_01_btn_001",
-        "level_2":         "diffIcon_01_btn_001",
-        "level_3":         "diffIcon_02_btn_001",
-        "level_4":         "diffIcon_02_btn_001",
-        "level_5":         "diffIcon_03_btn_001",
+        "level_2":         "diffIcon_02_btn_001",
+        "level_3":         "diffIcon_03_btn_001",
+        "level_4":         "diffIcon_03_btn_001",
+        "level_5":         "diffIcon_04_btn_001"/*,
         "level_6":         "diffIcon_03_btn_001",
         "level_7":         "diffIcon_04_btn_001",
         "level_8":         "diffIcon_04_btn_001",
@@ -1872,7 +1872,7 @@ class GameScene extends Phaser.Scene {
         "level_137677336": "diffIcon_00_btn_001",
         "level_116489424": "diffIcon_00_btn_001",
         "level_4284013": "diffIcon_06_btn_001",
-        "level_23":       "diffIcon_10_btn_001"
+        "level_23":       "diffIcon_10_btn_001"*/
       };
       const diffIconKey = levelDifficultyMap[levelId] || "diffIcon_05_btn_001";
       const diffFrame = diffIconKey + ".png";
