@@ -221,7 +221,7 @@ class AudioManager {
       this._music.setLoop(false);
       this._scene.tweens.add({
         targets: this._music,
-        volume: 0,
+        volume: 1,
         duration: durationMillis,
         /*onComplete: () => {
           if (this._music) {
