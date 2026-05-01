@@ -197,7 +197,9 @@ class BootScene extends Phaser.Scene {
       "katie rotatie",
       "we are all familiar with the concept of a pentagon im afraid",
       "This Time For every, Furry Lab..",
-      "they call you're server smash hit lab because you wanna research coronavirus"
+      "they call you're server smash hit lab because you wanna research coronavirus",
+      "pebble",
+      "YIP YIP YIP it is Geometry ZIP, foxthing dish"
     ];
     const sliderOriginX = cx - 105;
     const sliderOriginY = cy + 110;
