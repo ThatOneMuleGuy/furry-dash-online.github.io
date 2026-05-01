@@ -86,7 +86,7 @@ class BootScene extends Phaser.Scene {
     const cy = H / 2;
 
     const LOADING_MESSAGES = [
-      /*"Now with roundy bath salts!",
+      "Now with roundy bath salts!",
       "Encrypted for ransom and profit",
       "Furrzempic!",
       "Two birds shat on a tree",
@@ -198,7 +198,7 @@ class BootScene extends Phaser.Scene {
       "we are all familiar with the concept of a pentagon im afraid",
       "This Time For every, Furry Lab..",
       "they call you're server smash hit lab because you wanna research coronavirus",
-      "pebble",*/
+      "pebble",
       "YIP YIP YIP it is Geometry ZIP, foxthing dish"
     ];
     const sliderOriginX = cx - 105;
