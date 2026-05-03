@@ -264,7 +264,16 @@ class BootScene extends Phaser.Scene {
       "i will decapitate you",
       "should im gonna work on seyfert room 3 now",
       "mule will lose 8 points due to detected cheating",
-      "fipsh"
+      "fipsh",
+      ":3",
+      "yippers",
+      "Man. I love this table",
+      "shatr tiem",
+      "meow",
+      "A wild YORSHEX has appeared!",
+      "+15 Cubes",
+      "its time to revolutionize this world by summoning an incomprehensibly gigantic planet which texture is the tails heh almighty",
+      "if cmd == 'asstime' then timeLeft = timeLeft + 10 end"
     ];
     const sliderOriginX = cx - 105;
     const sliderOriginY = cy + 110;
