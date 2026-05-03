@@ -218,7 +218,8 @@ class BootScene extends Phaser.Scene {
       "mule gets L roomed",
       "asdfghjkl",
       "thabkyiu",
-      "dea hello yorshex"
+      "dea hello yorshex",
+      "im uber cool"
     ];
     const sliderOriginX = cx - 105;
     const sliderOriginY = cy + 110;
