@@ -273,7 +273,8 @@ class BootScene extends Phaser.Scene {
       "A wild YORSHEX has appeared!",
       "+15 Cubes",
       "its time to revolutionize this world by summoning an incomprehensibly gigantic planet which texture is the tails heh almighty",
-      "if cmd == 'asstime' then timeLeft = timeLeft + 10 end"
+      "if cmd == 'asstime' then timeLeft = timeLeft + 10 end",
+      "stealy steay"
     ];
     const sliderOriginX = cx - 105;
     const sliderOriginY = cy + 110;
