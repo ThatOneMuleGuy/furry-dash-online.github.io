@@ -199,7 +199,26 @@ class BootScene extends Phaser.Scene {
       "This Time For every, Furry Lab..",
       "they call you're server smash hit lab because you wanna research coronavirus",
       "pebble",
-      "YIP YIP YIP it is Geometry ZIP, foxthing dish"
+      "YIP YIP YIP it is Geometry ZIP, foxthing dish",
+      "get out of my code!! >:3",
+      "Death and Destruction",
+      "Life and Construction",
+      "Death and Deforestation",
+      "Obfuscation and Obstruction",
+      "Sex and Seduction",
+      "get berserked",
+      "I'm here to talk to you about your car's extended warranty",
+      "take over the world with the foxy features",
+      "cock and balls edition",
+      "smash hit chickpea flour edition",
+      "smash hit facebook",
+      "smash hit focaccia bread",
+      "smash hit boykisser dating simulator",
+      "it is court",
+      "mule gets L roomed",
+      "asdfghjkl",
+      "thabkyiu",
+      "dea hello yorshex"
     ];
     const sliderOriginX = cx - 105;
     const sliderOriginY = cy + 110;
