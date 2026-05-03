@@ -262,7 +262,9 @@ class BootScene extends Phaser.Scene {
       "time to encrypt alex into a .kd file",
       "oh oghs",
       "i will decapitate you",
-      "should im gonna work on seyfert room 3 now"
+      "should im gonna work on seyfert room 3 now",
+      "mule will lose 8 points due to detected cheating",
+      "fipsh"
     ];
     const sliderOriginX = cx - 105;
     const sliderOriginY = cy + 110;
