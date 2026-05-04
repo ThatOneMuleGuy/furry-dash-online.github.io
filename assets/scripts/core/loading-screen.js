@@ -274,7 +274,10 @@ class BootScene extends Phaser.Scene {
       "+15 Cubes",
       "its time to revolutionize this world by summoning an incomprehensibly gigantic planet which texture is the tails heh almighty",
       "if cmd == 'asstime' then timeLeft = timeLeft + 10 end",
-      "stealy steay"
+      "stealy steay",
+      "sending 69 gay furries to your location",
+      "its the eighth one",
+      "smash hit picklefudge mod?"
     ];
     const sliderOriginX = cx - 105;
     const sliderOriginY = cy + 110;
